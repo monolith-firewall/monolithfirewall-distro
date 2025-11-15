@@ -1,0 +1,63 @@
+# Monolith Firewall - Package List
+# Packages to be installed in the custom ISO
+
+# Base system
+linux-image-amd64
+live-boot
+systemd-sysv
+
+# Networking
+network-manager
+iptables
+nftables
+ipset
+iproute2
+net-tools
+ethtool
+bridge-utils
+vlan
+tcpdump
+wireshark-common
+dnsmasq
+bind9-dnsutils
+
+# Firewall and security
+ufw
+fail2ban
+openssl
+gnupg
+ca-certificates
+
+# System tools
+vim
+nano
+less
+curl
+wget
+rsync
+htop
+tmux
+screen
+
+# SSH
+openssh-server
+openssh-client
+
+# .NET runtime (handled separately via Microsoft repo)
+# dotnet-runtime-8.0
+
+# System monitoring
+sysstat
+lm-sensors
+smartmontools
+
+# File systems
+ntfs-3g
+exfat-fuse
+exfat-utils
+
+# Utilities
+bash-completion
+sudo
+parted
+gparted
